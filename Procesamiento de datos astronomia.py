@@ -6,7 +6,7 @@ import astropy as astropy
 
 
 
-# Generar datos de ejemplo
+# Generar datos
 np.random.seed(0)
 x = np.linspace(0, 10, 100)
 y = 2 * x + 1 + np.random.randn(100)
